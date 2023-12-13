@@ -1,0 +1,420 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HexFiend",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HFByteTheme",
+        "printedName": "HFByteTheme",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "darkColorTable",
+            "printedName": "darkColorTable",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafePointer",
+                "printedName": "Swift.UnsafePointer<HexFiend.HFByteThemeColor>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HFByteThemeColor",
+                    "printedName": "HexFiend.HFByteThemeColor",
+                    "usr": "c:@S@HFByteThemeColor"
+                  }
+                ],
+                "usr": "s:SP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@HexFiend@objc(cs)HFByteTheme(py)darkColorTable",
+            "mangledName": "$s8HexFiend11HFByteThemeC14darkColorTableSPySo0cdF0VGvp",
+            "moduleName": "HexFiend",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnsafePointer",
+                    "printedName": "Swift.UnsafePointer<HexFiend.HFByteThemeColor>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HFByteThemeColor",
+                        "printedName": "HexFiend.HFByteThemeColor",
+                        "usr": "c:@S@HFByteThemeColor"
+                      }
+                    ],
+                    "usr": "s:SP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@HexFiend@objc(cs)HFByteTheme(im)darkColorTable",
+                "mangledName": "$s8HexFiend11HFByteThemeC14darkColorTableSPySo0cdF0VGvg",
+                "moduleName": "HexFiend",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lightColorTable",
+            "printedName": "lightColorTable",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafePointer",
+                "printedName": "Swift.UnsafePointer<HexFiend.HFByteThemeColor>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HFByteThemeColor",
+                    "printedName": "HexFiend.HFByteThemeColor",
+                    "usr": "c:@S@HFByteThemeColor"
+                  }
+                ],
+                "usr": "s:SP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@HexFiend@objc(cs)HFByteTheme(py)lightColorTable",
+            "mangledName": "$s8HexFiend11HFByteThemeC15lightColorTableSPySo0cdF0VGvp",
+            "moduleName": "HexFiend",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnsafePointer",
+                    "printedName": "Swift.UnsafePointer<HexFiend.HFByteThemeColor>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HFByteThemeColor",
+                        "printedName": "HexFiend.HFByteThemeColor",
+                        "usr": "c:@S@HFByteThemeColor"
+                      }
+                    ],
+                    "usr": "s:SP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@HexFiend@objc(cs)HFByteTheme(im)lightColorTable",
+                "mangledName": "$s8HexFiend11HFByteThemeC15lightColorTableSPySo0cdF0VGvg",
+                "moduleName": "HexFiend",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "HexFiend.HFByteTheme?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HFByteTheme",
+                    "printedName": "HexFiend.HFByteTheme",
+                    "usr": "c:@M@HexFiend@objc(cs)HFByteTheme"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@HexFiend@objc(cs)HFByteTheme(im)initWithUrl:",
+            "mangledName": "$s8HexFiend11HFByteThemeC3urlACSg10Foundation3URLV_tcfc",
+            "moduleName": "HexFiend",
+            "objc_name": "initWithUrl:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HFByteTheme",
+                "printedName": "HexFiend.HFByteTheme",
+                "usr": "c:@M@HexFiend@objc(cs)HFByteTheme"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@HexFiend@objc(cs)HFByteTheme(im)init",
+            "mangledName": "$s8HexFiend11HFByteThemeCACycfc",
+            "moduleName": "HexFiend",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@HexFiend@objc(cs)HFByteTheme",
+        "mangledName": "$s8HexFiend11HFByteThemeC",
+        "moduleName": "HexFiend",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/fdgogogo\/Development\/Swift\/HexFiend\/framework\/sources\/HFByteTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 1918,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/fdgogogo\/Development\/Swift\/HexFiend\/framework\/sources\/HFByteTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 1952,
+      "length": 4,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/fdgogogo\/Development\/Swift\/HexFiend\/framework\/sources\/HFByteTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 1987,
+      "length": 4,
+      "value": "\"\r\""
+    },
+    {
+      "filePath": "\/Users\/fdgogogo\/Development\/Swift\/HexFiend\/framework\/sources\/HFByteTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 2022,
+      "length": 4,
+      "value": "\"\t\""
+    },
+    {
+      "filePath": "\/Users\/fdgogogo\/Development\/Swift\/HexFiend\/framework\/sources\/HFByteTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 3955,
+      "length": 10,
+      "value": "\"darkGray\""
+    },
+    {
+      "filePath": "\/Users\/fdgogogo\/Development\/Swift\/HexFiend\/framework\/sources\/HFByteTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 3998,
+      "length": 13,
+      "value": "\"systemGreen\""
+    },
+    {
+      "filePath": "\/Users\/fdgogogo\/Development\/Swift\/HexFiend\/framework\/sources\/HFByteTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 4047,
+      "length": 14,
+      "value": "\"systemYellow\""
+    },
+    {
+      "filePath": "\/Users\/fdgogogo\/Development\/Swift\/HexFiend\/framework\/sources\/HFByteTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 4098,
+      "length": 11,
+      "value": "\"systemRed\""
+    },
+    {
+      "filePath": "\/Users\/fdgogogo\/Development\/Swift\/HexFiend\/framework\/sources\/HFByteTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 4143,
+      "length": 14,
+      "value": "\"systemPurple\""
+    },
+    {
+      "filePath": "\/Users\/fdgogogo\/Development\/Swift\/HexFiend\/framework\/sources\/HFByteTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 4194,
+      "length": 12,
+      "value": "\"systemBlue\""
+    },
+    {
+      "filePath": "\/Users\/fdgogogo\/Development\/Swift\/HexFiend\/framework\/sources\/HFByteTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 4241,
+      "length": 14,
+      "value": "\"systemOrange\""
+    },
+    {
+      "filePath": "\/Users\/fdgogogo\/Development\/Swift\/HexFiend\/framework\/sources\/HFByteTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 4292,
+      "length": 13,
+      "value": "\"systemBrown\""
+    },
+    {
+      "filePath": "\/Users\/fdgogogo\/Development\/Swift\/HexFiend\/framework\/sources\/HFByteTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 4341,
+      "length": 12,
+      "value": "\"systemPink\""
+    },
+    {
+      "filePath": "\/Users\/fdgogogo\/Development\/Swift\/HexFiend\/framework\/sources\/HFByteTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 4388,
+      "length": 12,
+      "value": "\"systemGray\""
+    },
+    {
+      "filePath": "\/Users\/fdgogogo\/Development\/Swift\/HexFiend\/framework\/sources\/HFByteTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 4435,
+      "length": 12,
+      "value": "\"systemTeal\""
+    },
+    {
+      "filePath": "\/Users\/fdgogogo\/Development\/Swift\/HexFiend\/framework\/sources\/HFByteTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 4482,
+      "length": 12,
+      "value": "\"systemMint\""
+    },
+    {
+      "filePath": "\/Users\/fdgogogo\/Development\/Swift\/HexFiend\/framework\/sources\/HFByteTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 4583,
+      "length": 14,
+      "value": "\"systemIndigo\""
+    },
+    {
+      "filePath": "\/Users\/fdgogogo\/Development\/Swift\/HexFiend\/framework\/sources\/HFByteTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 4686,
+      "length": 12,
+      "value": "\"systemCyan\""
+    },
+    {
+      "filePath": "\/Users\/fdgogogo\/Development\/Swift\/HexFiend\/framework\/sources\/HFByteTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 425,
+      "length": 11,
+      "value": "\"HexFiend.HFByteTheme\""
+    }
+  ]
+}
